@@ -1,0 +1,14 @@
+nav> ul > li{
+    display: flex;
+    margin-right: 15px;
+
+}
+
+nav li >a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: 30px;
+}
