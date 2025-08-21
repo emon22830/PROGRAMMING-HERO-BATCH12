@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
+
+
+    <style>
+        #dom{
+            color: green;
+        }
+    </style>
 </head>
 <body>
-    
+<header>
+    <h1>This is my Header</h1>
+</header>
+
+  <main>
+    <h1 id="dom">Welcome To My Doom</h1>
+    <ul>
+        <li>EMU</li>
+        <li>EVU</li>
+        <li>Marie</li>
+    </ul>
+  </main>
 
 
     <Script>
-        console.log("Hello, bole chole gelo");
+        // console.log("Hello, bole chole gelo");
         document.getElementsByTagName 
+        const student = {
+            name: 'MD EMON',
+            id: 121,
+            study:function(subject){
+                console.log('studying subjects: ', subject)
+            }
+        }
+
+        const domTitle = document.getElementById('dom')
+        console.log(domTitle.innerText);
+        dom.innerText = "Jibon Ta ekta DOm "
     </Script>
     <script src="Dom.js"></script>
 </body>
